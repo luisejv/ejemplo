@@ -1,22 +1,22 @@
 .container {
-	width:  700px;
+	width: 900px;
 	margin: 0 auto;
 }
 
 @media (max-width: 960px) {
-	.container{
+	.container {
 		width: 700px;
 	}
 }
 
-@media (max-width: 720px) {
-	.container{
+@media (max-width: 740px) {
+	.container {
 		width: 500px;
 	}
 }
 
-@media (max-width: 540px) {
-	.container{
+@media (max-width: 560px) {
+	.container {
 		width: 300px;
 	}
 }

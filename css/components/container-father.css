@@ -1,0 +1,42 @@
+.container-father {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 90vw;
+	background-color: grey;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.container-father .item{
+	background-color: #3A65B5;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.container-father .item2 {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	flex-grow: 2;
+	align-self: flex-end;
+}
+
+.container-father .item3 {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	flex-grow: 1;
+	align-self: flex-start;
+}
+
+@media (max-width: 700px){
+	.container-father {
+		flex-wrap: wrap;
+	}
+}
